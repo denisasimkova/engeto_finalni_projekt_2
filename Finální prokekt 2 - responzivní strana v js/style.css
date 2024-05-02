@@ -1,0 +1,61 @@
+/* General */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+/* Hlavička header */
+header {
+  display: flex;
+  align-items: center;
+  background-color: #061a40;
+  height: 100px;
+}
+
+.logo {
+  flex-grow: 1;
+}
+
+.logo img {
+  width: 200px;
+  margin-left: 20px;
+}
+
+/* Menu - navigace */
+nav {
+  margin-right: 40px;
+}
+
+nav li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 30px;
+  font-size: 17px;
+}
+
+nav li a:hover {
+  color: white;
+  border-bottom: 1px solid white;
+  padding-bottom: 6px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #d0ba6e;
+}
+
+.menu-icon {
+  display: none;
+  margin-right: 30px;
+}
+
+/* pozadí - header */
+.welcome {
+  background: url("img/hog.png");
+  min-height: calc(100vh - 100px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
